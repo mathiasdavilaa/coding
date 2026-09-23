@@ -12,19 +12,21 @@ bool ordena(const estudante &a,const estudante &b){
 }
 
 int main(){
-  int n; std::cin>>n;
-  estudante alunos[n];
+  int n;
+  while(std::cin>>n){
+    estudante alunos[n];
 
-  for(int i=0;i<n;i++){
-    std::cin >> alunos[i].nome;
-    std::cin >> alunos[i].region;
-    std::cin >> alunos[i].distance;
-  }
+    for(int i=0;i<n;i++){
+      std::cin >> alunos[i].nome;
+      std::cin >> alunos[i].region;
+      std::cin >> alunos[i].distance;
+    }
 
-  std::sort(alunos,alunos+n,ordena);
+    std::sort(alunos,alunos+n,ordena);
 
-  for(int i=0;i<n;i++){
-    std::cout << alunos[i].nome << std::endl;
+    for(int i=0;i<n;i++){
+      std::cout << alunos[i].nome << std::endl;
+    }
   }
 
   return 0;
