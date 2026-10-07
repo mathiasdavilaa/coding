@@ -9,3 +9,18 @@ int main(){
 
   return 0;
 }
+
+
+
+
+_____________________________________
+|                                   |
+|         SOFTWARE BLA BLA          |
+|___________________________________|
+|                                   |
+| 1. Conferir a lista               |
+| 2. Adicionar nome na lista        |
+| 3. Pular nomes na lista           |
+| 4. Modificar nomes                |
+|                                   |
+|___________________________________|
